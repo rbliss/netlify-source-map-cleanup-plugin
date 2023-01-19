@@ -1,0 +1,25 @@
+{
+  "name": "netlify-source-map-cleanup-plugin",
+  "version": "1.0.0",
+  "author": "Richard Bliss @rhbliss",
+  "type": "module",
+  "dependencies": {
+    "glob": "^8.1.0",
+    "glob-promise": "^6.0.1"
+  },
+  "description": "Find and remove source maps from build directory before deployment on Netlify",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+  },
+  "keywords": [
+    "netlify",
+    "source",
+    "maps",
+    "plugin"
+  ],
+  "license": "ISC"
+}
