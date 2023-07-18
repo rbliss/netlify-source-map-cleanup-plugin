@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "author": "Richard Bliss @rhbliss",
   "type": "module",
+  "url": "https://github.com/rbliss/netlify-source-map-cleanup-plugin",
   "dependencies": {
     "glob": "^8.1.0",
     "glob-promise": "^6.0.1"
